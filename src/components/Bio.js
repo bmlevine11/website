@@ -1,9 +1,5 @@
 import React from 'react'
 
-// Import typefaces
-import 'typeface-oswald';
-import 'typeface-raleway';
-
 import profilePic from '../../static/levine_prof.jpg';
 
 class Bio extends React.Component {

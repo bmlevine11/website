@@ -4,13 +4,16 @@ import Helmet from 'react-helmet'
 
 import styles from './index.module.css';
 
+// Import typefaces
+import 'typeface-oswald';
+import 'typeface-raleway';
+
 const Template = (props) => {
   const siteTitle = get(props, 'data.site.siteMetadata.title')
 
   return (
     <section>
       <Helmet title={siteTitle} />
-
       <div className={styles.container}>
         <h1 className={styles.header} >
           LEVINE
@@ -26,7 +29,7 @@ const Template = (props) => {
   );
 }
 
-export default Template
+export default Template;
 
 export const pageQuery = graphql `
   query IndexQuery {
@@ -36,5 +39,5 @@ export const pageQuery = graphql `
       }
     }
   }
-`
+`;
 
