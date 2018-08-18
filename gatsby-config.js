@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'Brian Levine',
+    author: 'Brian Levine',
+    description: 'I Am Become Brian',
+    siteUrl: 'http://mushine.club',
   },
-  pathPrefix: '/gatsby-starter-blog',
+  pathPrefix: '/levine',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -47,11 +47,5 @@ module.exports = {
     `gatsby-plugin-feed`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/utils/typography',
-      },
-    },
   ],
 }
