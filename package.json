@@ -1,5 +1,5 @@
 {
-  "name": "Brian Levine",
+  "name": "brian-levine",
   "description": "Brian Levine",
   "version": "1.0.0",
   "author": "Brian Levine",
@@ -49,6 +49,8 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
+    "heroku-postbuild": "gatsby build",
+    "start": "gatsby serve"
   }
 }
