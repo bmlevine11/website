@@ -1,18 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 body {
   background-color: lightblue;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'oswald';
-  src: url('/src/fonts/oswald') format('woff2');
+  src: url('https://fonts.googleapis.com/css?family=Oswald') format('woff2');
   font-style: normal;
-}
-
+} */
+/*
 @font-face {
   font-family: 'raleway';
   src: url('/src/fonts/raleway') format('woff2');
   font-style: normal;
-}
+} */
 
 .container {
   display: block;

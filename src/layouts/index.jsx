@@ -5,8 +5,8 @@ import Helmet from 'react-helmet'
 import styles from './index.module.css';
 
 // Import typefaces
-import 'typeface-oswald';
-import 'typeface-raleway';
+// import 'typeface-oswald';
+// import 'typeface-raleway';
 
 const Template = (props) => {
   const siteTitle = get(props, 'data.site.siteMetadata.title')
