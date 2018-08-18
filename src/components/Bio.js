@@ -4,7 +4,7 @@ import React from 'react'
 import 'typeface-oswald';
 import 'typeface-raleway';
 
-import profilePic from '../../public/static/levine_prof.jpg';
+import profilePic from '../../static/levine_prof.jpg';
 
 class Bio extends React.Component {
   render() {
