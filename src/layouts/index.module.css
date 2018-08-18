@@ -9,16 +9,16 @@ body {
   margin-right: auto;
 }
 
-@media only screen and (max-width: 600px) {
-  .header {
-    font-size: 5em;
-  }
-}
-
 .header {
   font-family: 'oswald';
   font-size: 10em;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    font-size: 7em;
+  }
 }
 
 .subtext {
