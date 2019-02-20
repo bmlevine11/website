@@ -18,7 +18,8 @@ body {
 } */
 
 .container {
-  display: block;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
@@ -37,6 +38,7 @@ body {
 }
 
 .subtext {
+
   font-family: 'raleway';
   font-size: 1em;
 }

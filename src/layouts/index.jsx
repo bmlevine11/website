@@ -15,7 +15,7 @@ const Template = (props) => {
     <section>
       <Helmet title={siteTitle} />
       <div className={styles.container}>
-        <h1 className={styles.header} >
+        <h1 className={`${styles.header} top`}>
           LEVINE
         </h1>
         <p
